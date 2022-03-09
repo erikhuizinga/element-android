@@ -276,6 +276,8 @@ android {
         }
         wijkzorg {
             dimension "hackathonClient"
+            applicationIdSuffix ".wijkzorg"
+            versionNameSuffix "-wijkzorg"
         }
         pgo {
             dimension "hackathonClient"

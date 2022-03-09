@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "612781060268",
+    "project_id": "vgz-hackthon-chat",
+    "storage_bucket": "vgz-hackthon-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612781060268:android:ff7a9c202b319e8214ef09",
+        "android_client_info": {
+          "package_name": "im.vector.app.huisarts.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612781060268-hnm3v0kdqn8q38jpd4s5iukgaisae3rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK0EaEPBHtIrBaum_lLtUrFAsY0YcspnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612781060268-hnm3v0kdqn8q38jpd4s5iukgaisae3rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612781060268:android:204cc17f20e4dbe114ef09",
+        "android_client_info": {
+          "package_name": "im.vector.app.wijkzorg.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612781060268-hnm3v0kdqn8q38jpd4s5iukgaisae3rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK0EaEPBHtIrBaum_lLtUrFAsY0YcspnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612781060268-hnm3v0kdqn8q38jpd4s5iukgaisae3rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
