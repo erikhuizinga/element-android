@@ -260,7 +260,7 @@ android {
         }
     }
 
-    flavorDimensions "store"
+    flavorDimensions "store", "hackathonClient"
 
     productFlavors {
         gplay {
@@ -277,6 +277,15 @@ android {
             buildConfigField "boolean", "ALLOW_FCM_USE", "true"
             buildConfigField "String", "SHORT_FLAVOR_DESCRIPTION", "\"G\""
             buildConfigField "String", "FLAVOR_DESCRIPTION", "\"GooglePlay\""
+        }
+        huisarts {
+            dimension "hackathonClient"
+        }
+        wijkzorg {
+            dimension "hackathonClient"
+        }
+        pgo {
+            dimension "hackathonClient"
         }
     }
 
