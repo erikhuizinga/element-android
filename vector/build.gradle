@@ -224,7 +224,6 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix ".debug"
-            resValue "string", "app_name", "Element dbg"
 
             buildConfigField "boolean", "LOW_PRIVACY_LOG_ENABLE", "false"
             // Set to true if you want to enable strict mode in debug
@@ -234,8 +233,6 @@ android {
         }
 
         release {
-            resValue "string", "app_name", "Element"
-
             buildConfigField "boolean", "LOW_PRIVACY_LOG_ENABLE", "false"
             buildConfigField "boolean", "ENABLE_STRICT_MODE_LOGS", "false"
 
@@ -273,16 +270,19 @@ android {
             dimension "hackathonClient"
             applicationIdSuffix ".huisarts"
             versionNameSuffix "-huisarts"
+            resValue "string", "app_name", "Huisarts chatapp"
         }
         wijkzorg {
             dimension "hackathonClient"
             applicationIdSuffix ".wijkzorg"
             versionNameSuffix "-wijkzorg"
+            resValue "string", "app_name", "Wijkzorg chatapp"
         }
         pgo {
             dimension "hackathonClient"
             applicationIdSuffix ".pgo"
             versionNameSuffix "-pgo"
+            resValue "string", "app_name", "PGO chatapp"
         }
     }
 
