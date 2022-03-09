@@ -15,6 +15,10 @@ To run a client:
 3. Sync Gradle project (File -> Sync Project with Gradle Files).
 4. Run the vector run configuration on a connected Android device or emulator.
 
+To install all clients from CLI:
+
+`./gradlew installGplay{$flavorName0,$flavorName1,$flavorName2,...}Debug`
+
 ---
 
 Original readme below ⬇️
