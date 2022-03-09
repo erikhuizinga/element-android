@@ -7,6 +7,8 @@ To add a new client:
 1. Add a new flavor in the `"hackathonClient"` dimension in vector/build.gradle. For example, look at how the `huisarts` flavor is defined.
 2. Create a new Firebase Android App (https://console.firebase.google.com/project/vgz-hackthon-chat/overview -> + Add app) and give it package name `im.vector.app.$flavorName.debug`. Add (the content of) the corresponding google-services.json to vector/src/gplay/`$flavorName`/debug.
 3. Sync Gradle project (File -> Sync Project with Gradle Files).
+4. Optionally override resources:
+   - The app's main color, e.g. see vector/src/huisarts/res/values/palette.xml. This color is used in various places in the client.
 
 To run a client:
 
