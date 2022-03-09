@@ -2,6 +2,9 @@
 
 This project hosts multiple app 'flavors', one per type of chat client.
 
+To add a new client:
+
+1. Add a new flavor in the `"hackathonClient"` dimension in vector/build.gradle. For example, look at how the `huisarts` flavor is defined.
 ---
 
 Original readme below ⬇️

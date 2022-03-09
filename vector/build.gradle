@@ -280,6 +280,8 @@ android {
         }
         huisarts {
             dimension "hackathonClient"
+            applicationIdSuffix ".huisarts"
+            versionNameSuffix "-huisarts"
         }
         wijkzorg {
             dimension "hackathonClient"
