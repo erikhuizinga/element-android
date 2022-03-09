@@ -11,7 +11,7 @@ To add a new client:
 To run a client:
 
 1. Make sure the project's JDK is set to 11 (possibly 1.8, 9 or 10 also work) in Android Studio's Gradle Settings (Preferences -> Build, Execution, Deployment -> Build Tools -> Gradle -> Gradle JDK).
-2. Select the vector (app) flavor you want in the Build Variants menu.
+2. Select the vector (app) flavor you want in the Build Variants menu. Select a debug variant.
 3. Run the vector run configuration on a connected Android device or emulator.
 
 ---
